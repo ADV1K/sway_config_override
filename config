@@ -1,0 +1,11 @@
+###############################################################################
+# sway Config Partials
+###############################################################################
+
+# Include sample global config
+# include config.d/global/*
+
+# Include any user sway partials
+# include config.d/local/*
+
+include_one config.d/local/* config.d/global/*
